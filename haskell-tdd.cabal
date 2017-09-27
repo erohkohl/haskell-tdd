@@ -13,14 +13,14 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Module.Math
+  exposed-modules:     Math.Simple
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
 
 test-suite hello-stack-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
-  other-modules:       Module.MathTest
+  other-modules:       Math.SimpleTest
   main-is:             Spec.hs
   build-depends:       base
                      , haskell-tdd

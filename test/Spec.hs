@@ -1,5 +1,5 @@
 import Test.HUnit
 
-import Module.MathTest
+import Math.SimpleTest
 
-main = runTestTT tests -- from module MathTest
+main = runTestTT tests -- tests from modules SimpleTest
